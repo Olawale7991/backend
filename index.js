@@ -11,5 +11,5 @@ app.use(userRouter)
 
 app.listen(port,async()=>{
     await connectDB()
-    console.log(`server on port: ${port}`)
-})
+    console.log(`server listening on port: ${port}`)
+});
